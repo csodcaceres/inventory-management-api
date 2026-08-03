@@ -1,6 +1,7 @@
 [project]
 name = "inventory-management-api"
 version = "1.0.0"
+description = "Production-ready Inventory Management REST API with FastAPI, SQLAlchemy, Alembic and clean architecture."
 requires-python = ">=3.12"
 
 dependencies = [
