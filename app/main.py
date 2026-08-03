@@ -44,5 +44,5 @@ app.add_exception_handler(
 @app.get("/")
 async def read_root():
     return {
-        "message": "FastAPI project running with settings!"
+        "message": "Inventory Management API running!"
     }

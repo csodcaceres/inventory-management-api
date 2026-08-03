@@ -2,8 +2,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     # Application
-    app_name: str = "FastAPI Project"
-    app_version: str = "0.1.0"
+    app_name = "Inventory Management API"
+    app_version = "1.0.0"
     debug: bool = True
 
     # Database
